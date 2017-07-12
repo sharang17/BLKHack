@@ -299,14 +299,14 @@ anychart.onDocumentReady(function () {
     stockData['indexesData'] = parsed_data;
   });
 
-  $.getJSON("https://github.com/sharang17/BLKHack/blob/master/Dashboard/src/data/StocksViaBonds.json", function (parsed_data) {
+  $.getJSON("https://raw.githubusercontent.com/sharang17/BLKHack/master/Dashboard/src/data/StocksViaBonds.json", function (parsed_data) {
     donutData['initial_data'] = parsed_data;
     updateDonutListeners(donutData, instrumentsTable);
     updateDonutData(parsed_data, 5, 5);
     forecastData['data'] = donutData['data'];
     updateForecastData(forecastData);
     updateTableData(instrumentsTable, donutData['data']);
-    $.getJSON("https://raw.githubusercontent.com/AnyChart/investment-portfolio-dashboard/master/src/data/historical.json", function (parsed_data) {
+    $.getJSON("https://raw.githubusercontent.com/sharang17/BLKHack/master/Dashboard/src/data/historical.json", function (parsed_data) {
       stockData['historical'] = parsed_data;
       stockData['mainData'] = calculateDataForStock(donutData['data'], parsed_data);
       changeStockChart(stockData);
