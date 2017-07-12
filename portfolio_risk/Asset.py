@@ -138,10 +138,40 @@ def risk_TS_demo():
 
 
 
+
 if __name__ == "__main__":
-    weight=np.array([0.25,0.25,0.25,0.25,0,0,0,0,0,0,0])
+    weight=np.array([0.09,0.09,0.09,0.09,0.09,0.09,0.09,0.09,0.09,0.09,0.09])
     equity_tickers=["AAPL","GOOGL","MSFT","AMZN"]
     test_port=Child_Portfolio(weight,"Tech",equity_tickers)
-    print(test_port.get_risk())
-    print(test_port.get_risk_explosure())
-    print(np.dot(test_port.get_risk_explosure(),test_port._equity_weight.transpose()))
+    # print(test_port.get_risk())
+    # print(test_port.get_risk_explosure())
+    # print(np.dot(test_port.get_risk_explosure(),test_port._equity_weight.transpose()))
+
+    Names=pd.read_csv("MainPortfolio.csv")
+    stockName=list(Names.ix[:,"Company Name"])
+    stockTicker=list(Names.ix[:,"Ticker"])
+    Date="12/30/2016"
+    Stock_Price= pd.read_csv("MainPortfolioPrice.csv")
+    #print(Stock_Price)
+    select_column=Stock_Price["Date"] == Date
+    Stock_Price=Stock_Price.loc[select_column].ix[:,stockTicker].values[0]
+
+    #get risk
+
+    Stock_Risk=pd.read_csv("STORM_Single_Risk.csv")
+    select_column=Stock_Risk["Date"] == Date
+    Stock_Risk=Stock_Risk.loc[select_column].ix[:,stockTicker].values[0]
+    Stock_Risk=np.sqrt(Stock_Risk*52)*100
+
+    Green_Package=pd.DataFrame(
+        {
+            'Tickers':stockTicker
+         })
+    Green_Package["Names"]=pd.Series(stockName)
+    Green_Package["Share Price"]=pd.Series(Stock_Price)
+    Green_Package["Weight"]=pd.Series(weight*100)
+    Green_Package["Stand Along Risk"]=pd.Series(Stock_Risk)
+    Green_Package["Risk Contribution"]=pd.Series(test_port.get_risk_explosure()*100)
+    Green_Package["Countries"]=pd.Series(["US"]*11)
+    Green_Package["Sectors"]=pd.Series(["Tech"]*4+["Finance"]*4+["Health Care"]*3)
+    Green_Package.to_csv("GreenPackage.csv")
