@@ -1,17 +1,18 @@
 {
-  "stocks":[
-    {"name": "Vanguard Total Stock Market ETF", "ticker": "VTI", "value": 101.53, "coefficient": 4.63, "risks": 4},
-    {"name": "Schwab US Broad Market ETF", "ticker": "SCHB", "value": 47.67, "coefficient": 4.67, "risks": 19},
-    {"name": "Vanguard Value ETF", "ticker": "VTV", "value": 78.36, "coefficient": 6.04, "risks": 13},
-    {"name": "iShares S&P 500 Value", "ticker": "IVE", "value": 85.91, "coefficient": 4.91, "risks": 19},
-    {"name": "Vanguard Mid-Cap Value ETF", "ticker": "VOE", "value": 86.47, "coefficient": 0.56, "risks": 22},
-    {"name": "Vanguard Small-Cap Value ETF", "ticker": "VBR", "value": 100.86, "coefficient": -0.57, "risks": 21},
-    {"name": "Vanguard FTSE Developed Markets ETF", "ticker": "VEA", "value": 36.65, "coefficient": 1.44, "risks": 15},
-    {"name": "Vanguard FTSE Emerging Markets ETF", "ticker": "VWO", "value": 34.01, "coefficient": -2.67, "risks": 17},
-    {"name": "FPA Crescent", "ticker": "FPACX", "value": 32.47, "coefficient": 1.78, "risks": 13},
-    {"name": "Wells Fargo & Company", "ticker": "WFC", "value": 52.82, "coefficient": 5.73, "risks": 3}
-  ],
-  "bonds":[
+    "stocks": [
+    {"name": "Apple", "ticker": "AAPL", "value": 115.82, "coefficient": 1.1829, "risk": 25.027253702362145},
+    {"name": "Google", "ticker": "GOOGL", "value": 792.45, "coefficient": 1.1845, "risk": 24.64003692559733},
+    {"name": "Microsoft", "ticker": "MSFT", "value": 62.14, "coefficient": 1.2505, "risk": 22.953082438452572},
+    {"name": "Amazon", "ticker": "AMZN", "value": 749.87, "coefficient": 1.1193, "risk": 30.399864982292275},
+    {"name": "Morgan Stanley", "ticker": "MS", "value": 42.25, "coefficient": 1.3858, "risk": 27.385703354903995},
+    {"name": "Goldman Sachs", "ticker": "GS", "value": 239.45, "coefficient": 1.2753, "risk": 23.177450955193496},
+    {"name": "JPMorgan Chase", "ticker": "JPM", "value": 85.8152, "coefficient": 1.1864, "risk": 21.266350801778856},
+    {"name": "BlackRock", "ticker": "BLK", "value": 380.54, "coefficient": 1.3035, "risk": 21.55070072023924},
+    {"name": "Mylan", "ticker": "MYL", "value": 38.15, "coefficient": 0.9211, "risk": 37.4823119473866},
+    {"name": "Pfizer", "ticker": "PFE", "value": 32.48, "coefficient": 0.8282, "risk": 18.328842519567896},
+    {"name": "Aetna", "ticker": "AET", "value": 123.758, "coefficient": 0.7735, "risk": 22.6302731262643}
+    ],
+    "bonds":[
     {"name": "iShares National AMT-Free Muni Bond", "ticker": "MUB", "value": 108.18, "coefficient": 1.70, "risks": 2},
     {"name": "iShares iBoxx $ Invst Grade Crp Bond", "ticker": "LQD", "value": 114.64, "coefficient": -0.26, "risks": 1},
     {"name": "Vanguard Total International Bond ETF", "ticker": "BNDX", "value": 52.66, "coefficient": 0.34, "risks": 8},
