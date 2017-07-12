@@ -1,16 +1,15 @@
 {
     "stocks": [
-    {"name": "Apple", "ticker": "AAPL", "value": 115.82, "coefficient": 1.1829, "risk": 25.027253702362145},
-    {"name": "Google", "ticker": "GOOGL", "value": 792.45, "coefficient": 1.1845, "risk": 24.64003692559733},
-    {"name": "Microsoft", "ticker": "MSFT", "value": 62.14, "coefficient": 1.2505, "risk": 22.953082438452572},
-    {"name": "Amazon", "ticker": "AMZN", "value": 749.87, "coefficient": 1.1193, "risk": 30.399864982292275},
-    {"name": "Morgan Stanley", "ticker": "MS", "value": 42.25, "coefficient": 1.3858, "risk": 27.385703354903995},
-    {"name": "Goldman Sachs", "ticker": "GS", "value": 239.45, "coefficient": 1.2753, "risk": 23.177450955193496},
-    {"name": "JPMorgan Chase", "ticker": "JPM", "value": 85.8152, "coefficient": 1.1864, "risk": 21.266350801778856},
-    {"name": "BlackRock", "ticker": "BLK", "value": 380.54, "coefficient": 1.3035, "risk": 21.55070072023924},
-    {"name": "Mylan", "ticker": "MYL", "value": 38.15, "coefficient": 0.9211, "risk": 37.4823119473866},
-    {"name": "Pfizer", "ticker": "PFE", "value": 32.48, "coefficient": 0.8282, "risk": 18.328842519567896},
-    {"name": "Aetna", "ticker": "AET", "value": 123.758, "coefficient": 0.7735, "risk": 22.6302731262643}
+    {"name": "Apple", "ticker": "AAPL", "value": 115.82, "coefficient": 1.1829, "risks": 25.027253702362145},
+    {"name": "Google", "ticker": "GOOGL", "value": 792.45, "coefficient": 1.1845, "risks": 24.64003692559733},
+    {"name": "Microsoft", "ticker": "MSFT", "value": 62.14, "coefficient": 1.2505, "risks": 22.953082438452572},
+    {"name": "Amazon", "ticker": "AMZN", "value": 749.87, "coefficient": 1.1193, "risks": 30.399864982292275},
+    {"name": "Morgan Stanley", "ticker": "MS", "value": 42.25, "coefficient": 1.3858, "risks": 27.385703354903995},
+    {"name": "Goldman Sachs", "ticker": "GS", "value": 239.45, "coefficient": 1.2753, "risks": 23.177450955193496},
+    {"name": "JPMorgan Chase", "ticker": "JPM", "value": 85.8152, "coefficient": 1.1864, "risks": 21.266350801778856},
+    {"name": "BlackRock", "ticker": "BLK", "value": 380.54, "coefficient": 1.3035, "risks": 21.55070072023924},
+    {"name": "Mylan", "ticker": "MYL", "value": 38.15, "coefficient": 0.9211, "risks": 37.4823119473866},
+    {"name": "Pfizer", "ticker": "PFE", "value": 32.48, "coefficient": 0.8282, "risks": 18.328842519567896}
     ],
     "bonds":[
     {"name": "iShares National AMT-Free Muni Bond", "ticker": "MUB", "value": 108.18, "coefficient": 1.70, "risks": 2},
