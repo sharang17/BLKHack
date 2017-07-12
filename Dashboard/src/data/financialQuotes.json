@@ -1,6 +1,6 @@
 {
   "_comment": "source: http://finance.yahoo.com/q/hp?s=%5EGSPC&a=05&b=4&c=2013&d=01&e=1&f=2016&g=d",
-  "S&P 500": [
+  "TEST_TICKER": [
     {"date": "2016-01-29", "value": 1940.23999},
     {"date": "2016-01-28", "value": 1893.359985},
     {"date": "2016-01-27", "value": 1882.949951},
