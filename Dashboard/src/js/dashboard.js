@@ -306,7 +306,7 @@ anychart.onDocumentReady(function () {
     forecastData['data'] = donutData['data'];
     updateForecastData(forecastData);
     updateTableData(instrumentsTable, donutData['data']);
-    $.getJSON("https://raw.githubusercontent.com/sharang17/BLKHack/master/Dashboard/src/data/historical.json", function (parsed_data) {
+    $.getJSON("https://raw.githubusercontent.com/AnyChart/investment-portfolio-dashboard/master/src/data/historical.json", function (parsed_data) {
       stockData['historical'] = parsed_data;
       stockData['mainData'] = calculateDataForStock(donutData['data'], parsed_data);
       changeStockChart(stockData);

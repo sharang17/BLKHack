@@ -12,15 +12,15 @@
     {"name": "Pfizer", "ticker": "PFE", "value": 32.48, "coefficient": 0.8282, "risks": 18.328842519567896}
     ],
     "bonds":[
-    {"name": "iShares National AMT-Free Muni Bond", "ticker": "MUB", "value": 108.18, "coefficient": 1.70, "risks": 2},
-    {"name": "iShares iBoxx $ Invst Grade Crp Bond", "ticker": "LQD", "value": 114.64, "coefficient": -0.26, "risks": 1},
-    {"name": "Vanguard Total International Bond ETF", "ticker": "BNDX", "value": 52.66, "coefficient": 0.34, "risks": 8},
-    {"name": "Vanguard Emerging Markets Govt Bd ETF", "ticker": "VWOB", "value": 75.15, "coefficient": -1.07, "risks": 2},
-    {"name": "iShares Short Treasury Bond", "ticker": "SHV", "value": 110.24, "coefficient": -0.06, "risks": 1},
-    {"name": "Vanguard Short-Term Infl-Prot Secs ETF", "ticker": "VTIP", "value": 48.21, "coefficient": -0.24, "risks": 3},
-    {"name": "Colorado BondShares A Tax-Exempt", "ticker": "HICOX", "value": 9.13, "coefficient": -0.10, "risks": 5},
-    {"name": "Ave Maria Bond", "ticker": "AVEFX", "value": 11.00, "coefficient": 1.09, "risks": 4},
-    {"name": "Metropolitan West Strategic Income M", "ticker": "MWSTX", "value": 8.19, "coefficient": -1.09, "risks": 9},
-    {"name": "DoubleLine Total Return Bond N", "ticker": "DLTNX", "value": 10.88, "coefficient": -0.73, "risks": 2}
+    {"name": "iShares National AMT-Free Muni Bond", "ticker": "VTI", "value": 108.18, "coefficient": 1.70, "risks": 2},
+    {"name": "iShares iBoxx $ Invst Grade Crp Bond", "ticker": "SCHB", "value": 114.64, "coefficient": -0.26, "risks": 1},
+    {"name": "Vanguard Total International Bond ETF", "ticker": "VTV", "value": 52.66, "coefficient": 0.34, "risks": 8},
+    {"name": "Vanguard Emerging Markets Govt Bd ETF", "ticker": "IVE", "value": 75.15, "coefficient": -1.07, "risks": 2},
+    {"name": "iShares Short Treasury Bond", "ticker": "VOE", "value": 110.24, "coefficient": -0.06, "risks": 1},
+    {"name": "Vanguard Short-Term Infl-Prot Secs ETF", "ticker": "VBR", "value": 48.21, "coefficient": -0.24, "risks": 3},
+    {"name": "Colorado BondShares A Tax-Exempt", "ticker": "VEA", "value": 9.13, "coefficient": -0.10, "risks": 5},
+    {"name": "Ave Maria Bond", "ticker": "VWO", "value": 11.00, "coefficient": 1.09, "risks": 4},
+    {"name": "Metropolitan West Strategic Income M", "ticker": "FPACX", "value": 8.19, "coefficient": -1.09, "risks": 9},
+    {"name": "DoubleLine Total Return Bond N", "ticker": "WFC", "value": 10.88, "coefficient": -0.73, "risks": 2}
   ]
 }

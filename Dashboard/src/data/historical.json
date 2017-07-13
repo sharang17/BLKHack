@@ -672,8 +672,6 @@
     {"date": "2013-06-05", "value": 11.3},
     {"date": "2013-06-04", "value": 11.34}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=BNDX&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "BNDX": [
     {"date": "2016-01-29", "value": 53.57},
     {"date": "2016-01-28", "value": 53.400002},
@@ -1346,8 +1344,6 @@
     {"date": "2013-06-05", "value": 50.360001},
     {"date": "2013-06-04", "value": 50.299999}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=DLTNX&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "DLTNX": [
     {"date": "2016-01-29", "value": 10.89},
     {"date": "2016-01-28", "value": 10.89},
@@ -2020,8 +2016,6 @@
     {"date": "2013-06-05", "value": 11.28},
     {"date": "2013-06-04", "value": 11.27}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=FPACX&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "MYL": [
     {"date": "2016-01-29", "value": 29.49},
     {"date": "2016-01-28", "value": 28.99},
@@ -2694,8 +2688,6 @@
     {"date": "2013-06-05", "value": 31.16},
     {"date": "2013-06-04", "value": 31.35}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=HICOX&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "HICOX": [
     {"date": "2016-01-29", "value": 9.14},
     {"date": "2016-01-28", "value": 9.13},
@@ -3368,8 +3360,6 @@
     {"date": "2013-06-05", "value": 9.21},
     {"date": "2013-06-04", "value": 9.21}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=IVE&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "AMZN": [
     {"date": "2016-01-29", "value": 84.150002},
     {"date": "2016-01-28", "value": 82.110001},
@@ -4042,8 +4032,6 @@
     {"date": "2013-06-05", "value": 76.059998},
     {"date": "2013-06-04", "value": 77.099998}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=LQD&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "LQD": [
     {"date": "2016-01-29", "value": 114.150002},
     {"date": "2016-01-28", "value": 113.559998},
@@ -4716,8 +4704,6 @@
     {"date": "2013-06-05", "value": 116.550003},
     {"date": "2013-06-04", "value": 116.720001}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=MUB&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "MUB": [
     {"date": "2016-01-29", "value": 111.559998},
     {"date": "2016-01-28", "value": 111.410004},
@@ -5390,8 +5376,6 @@
     {"date": "2013-06-05", "value": 107.839996},
     {"date": "2013-06-04", "value": 107.599998}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=MWSTX&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "MWSTX": [
     {"date": "2016-01-29", "value": 8.07},
     {"date": "2016-01-28", "value": 8.07},
@@ -6064,8 +6048,6 @@
     {"date": "2013-06-05", "value": 8.36},
     {"date": "2013-06-04", "value": 8.37}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=SCHB&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "GOOGL": [
     {"date": "2016-01-29", "value": 46.240002},
     {"date": "2016-01-28", "value": 45.119999},
@@ -6738,8 +6720,6 @@
     {"date": "2013-06-05", "value": 38.970001},
     {"date": "2013-06-04", "value": 39.540001}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=SHV&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "SHV": [
     {"date": "2016-01-29", "value": 110.300003},
     {"date": "2016-01-28", "value": 110.290001},
@@ -7412,8 +7392,6 @@
     {"date": "2013-06-05", "value": 110.25},
     {"date": "2013-06-04", "value": 110.25}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=VBR&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "MS": [
     {"date": "2016-01-29", "value": 92.480003},
     {"date": "2016-01-28", "value": 89.620003},
@@ -8086,8 +8064,6 @@
     {"date": "2013-06-05", "value": 83.110001},
     {"date": "2013-06-04", "value": 84.309998}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=VEA&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "JPM": [
     {"date": "2016-01-29", "value": 34.689999},
     {"date": "2016-01-28", "value": 34.099998},
@@ -8760,9 +8736,7 @@
     {"date": "2013-06-05", "value": 36.68},
     {"date": "2013-06-04", "value": 37.52}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=VOE&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
-  "MS": [
+  "GS": [
     {"date": "2016-01-29", "value": 80.050003},
     {"date": "2016-01-28", "value": 77.889999},
     {"date": "2016-01-27", "value": 77.68},
@@ -9434,8 +9408,6 @@
     {"date": "2013-06-05", "value": 68.230003},
     {"date": "2013-06-04", "value": 69.190002}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=VTI&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "AAPL": [
     {"date": "2016-01-29", "value": 98.330002},
     {"date": "2016-01-28", "value": 95.949997},
@@ -10108,8 +10080,6 @@
     {"date": "2013-06-05", "value": 83.010002},
     {"date": "2013-06-04", "value": 84.199997}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=VTIP&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "VTIP": [
     {"date": "2016-01-29", "value": 48.490002},
     {"date": "2016-01-28", "value": 48.400002},
@@ -10782,8 +10752,6 @@
     {"date": "2013-06-05", "value": 49.619999},
     {"date": "2013-06-04", "value": 49.619999}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=VTV&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "MSFT": [
     {"date": "2016-01-29", "value": 77.639999},
     {"date": "2016-01-28", "value": 75.650002},
@@ -11456,8 +11424,6 @@
     {"date": "2013-06-05", "value": 67.870003},
     {"date": "2013-06-04", "value": 68.800003}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=VWO&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "BLK": [
     {"date": "2016-01-29", "value": 30.83},
     {"date": "2016-01-28", "value": 29.780001},
@@ -12130,8 +12096,6 @@
     {"date": "2013-06-05", "value": 40.869999},
     {"date": "2013-06-04", "value": 41.720001}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=VWOB&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "VWOB": [
     {"date": "2016-01-29", "value": 73.730003},
     {"date": "2016-01-28", "value": 73.669998},
@@ -12804,8 +12768,6 @@
     {"date": "2013-06-05", "value": 79.330002},
     {"date": "2013-06-04", "value": 79.870003}
   ],
-
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=WFC&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "PFE": [
     {"date": "2016-01-29", "value": 50.23},
     {"date": "2016-01-28", "value": 48.919998},

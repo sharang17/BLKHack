@@ -6065,7 +6065,7 @@
     {"date": "2013-06-04", "value": 8.37}
   ],
 
-  "_comment": "source: http://finance.yahoo.com/q/hp?s=SCHB&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
+  "_comment": "source: http://finance.yahoo.com/q/hp?s=GOOGL&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "GOOGL": [
     {"date": "2013-06-04", "value": 429.97997999999995},
     {"date": "2013-06-05", "value": 430.280273},
@@ -9435,6 +9435,7 @@
     {"date": "2016-01-29", "value": 25.879998999999998}
   ],
 
+  "_comment": "source: http://finance.yahoo.com/q/hp?s=AAPL&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "AAPL": [
     {"date": "2013-06-04", "value": 64.187141},
     {"date": "2013-06-05", "value": 63.587143000000005},
@@ -11458,7 +11459,7 @@
 
   "_comment": "source: http://finance.yahoo.com/q/hp?s=WFC&a=5&b=4&c=2013&d=01&e=1&f=2016&g=d",
   "PFE": [
-    {"date": "2013-06-04", "value": 27.66},
+    {"date": "2013-06-04", "value": 27.66}, 
     {"date": "2013-06-05", "value": 27.48},
     {"date": "2013-06-06", "value": 28.110001},
     {"date": "2013-06-07", "value": 28.26},
