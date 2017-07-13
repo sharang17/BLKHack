@@ -1,7 +1,7 @@
 import pandas as pd 
 import io
 
-ticker = "PFE"
+ticker = "AAPL"
 file_obj = open("equityHistorical.json","w")
 file_obj.write("  \"" + ticker + "\": [\n")
 
@@ -13,9 +13,10 @@ date = data['Date'].values.tolist()
 adj_close = data['Adj Close'].values.tolist()
 delimeter = ","
 for i in range(0,len(date)) :
+    index = len(date)-i-1
     hist_entry = {}
-    hist_entry["date"] = date[i]
-    hist_entry["value"] = adj_close[i]
+    hist_entry["date"] = date[index]
+    hist_entry["value"] = adj_close[index]
     nxtline = "\n"
     if i != (len(date)-1):
         nxtline = delimeter + nxtline
