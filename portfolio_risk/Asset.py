@@ -139,8 +139,7 @@ def risk_TS_demo():
 
 
 
-if __name__ == "__main__":
-    weight=np.array([0.09,0.09,0.09,0.09,0.09,0.09,0.09,0.09,0.09,0.09,0.09])
+def Get_Green_Table(weight):
     equity_tickers=["AAPL","GOOGL","MSFT","AMZN"]
     test_port=Child_Portfolio(weight,"Tech",equity_tickers)
     # print(test_port.get_risk())
@@ -175,3 +174,7 @@ if __name__ == "__main__":
     Green_Package["Countries"]=pd.Series(["US"]*11)
     Green_Package["Sectors"]=pd.Series(["Tech"]*4+["Finance"]*4+["Health Care"]*3)
     Green_Package.to_csv("GreenPackage.csv")
+
+if __name__ == "__main__":
+    weight=np.array([0.0971,0.0987,0.1059,0.08,0.088,0.1049,0.1143,0.1128,0.0649,0.1326,0.00])
+    Get_Green_Table(weight)
